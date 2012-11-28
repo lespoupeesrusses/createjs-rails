@@ -1,8 +1,5 @@
 /*
  * CreateJS plugin
  * by Bergius
- *
- *= require underscore-min
- *
  */
-//= require bla-min
+//= require create/underscore-min
