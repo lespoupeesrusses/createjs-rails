@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = CreatejsRails::VERSION
   s.authors     = ["Ethane Tivano"]
   s.email       = ["ethane.tivano@mailoo.org"]
-  s.homepage    = ""
+  s.homepage    = "http://createjs.org/"
   s.summary     = "A Rails gem"
   s.description = "A Rails gem for createjs"
 
