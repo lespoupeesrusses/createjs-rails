@@ -8,12 +8,11 @@ Gem::Specification.new do |s|
   s.name        = "createjs-rails"
   s.version     = CreatejsRails::VERSION
   s.authors     = ["Ethane Tivano"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CreatejsRails."
-  s.description = "TODO: Description of CreatejsRails."
+  s.email       = ["ethane.tivano@mailoo.org"]
+  s.summary     = "A Rails gem"
+  s.description = "A Rails gem for createjs"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files      = Dir["{app,config,db,lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.1"
