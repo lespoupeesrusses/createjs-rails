@@ -39,5 +39,6 @@ $(document).ready(function() {
     }); 
     $('body article').bind('midgardeditabledisable', function(event, data) {
         setConfirmUnloadPage(false); 
+        $('[property]').removeAttr('contenteditable');
     }); 
 }); 
