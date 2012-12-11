@@ -37,6 +37,11 @@ $(document).ready(function() {
             setConfirmUnloadPage(true); 
         }
     }); 
+    $('#midgardcreate-save').live('click', function(event, data) {
+        if (!$(this).hasClass('ui-state-class')) {
+            setConfirmUnloadPage(false);
+        }
+    }); 
     $('body article').bind('midgardeditabledisable', function(event, data) {
         setConfirmUnloadPage(false); 
         $('[property]').removeAttr('contenteditable');
