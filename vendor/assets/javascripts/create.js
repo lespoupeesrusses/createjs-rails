@@ -10,7 +10,7 @@
 // repo:    https://github.com/bergie/create
 // website: http://createjs.org/
 //
-//= require jquery-1.8.min
+//= require create/deps/jquery-1.7.1.min
 //= require jquery-ui-1.8.18.min
 //= require create/deps/underscore-min
 //= require create/deps/backbone-min
